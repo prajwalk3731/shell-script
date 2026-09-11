@@ -12,7 +12,7 @@ else
     echo "You are root user, you can run this script"
 fi
 
-yum install mysql -y
+dnf install mysql -y
 
 # it is our responsibility to check installation is success or not
 
